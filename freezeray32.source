@@ -1,0 +1,1 @@
+gcc -DNDEBUG -O3 -march=native -m32 -fPIC -ftls-model=initial-exec -fweb -shared -ldl freezeray.c -o libfreezeray32.so 
